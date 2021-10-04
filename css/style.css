@@ -1,0 +1,1229 @@
+/* 
+Tempalte Name: Bayya - Bitcoin Crypto Currency Template
+Author : Team (A)
+AuthorURL: https://www.creativeitinstitute.com
+version: 1.0.99
+
+table of content
+------------------------
+01/ header
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: #000;
+}
+a {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+  font-weight: 400;
+}
+
+/* dark part start */
+.dark #top-header {
+  background-color: #1d1d1d;
+}
+
+/* dark part ends */
+
+/* light part start */
+.light #top-header, .light , .light .form-inpu , .light .footer   {
+  background-color: #fff;
+}
+.light #call-action::before, .light #call-action::after{
+  border-bottom: 30px solid #fff;
+}
+.light .bitcoin-status ul li h6 , .light .pricing-header h2, .light .pricing-header h2 span , .light .payment-logs h4{
+color: #555;
+}
+.light .bitcoin-status ul li span,.light .feature-content p , .light p , .light .team-member:hover .team-member-caption p , .light .facts-footer div span{
+  color: #777;
+}
+.light .custom-nav{
+  background-color: #d3d3d3;
+}
+.light #mynav ul li a , .light .feature-content h3, .light .title-head, .light .image-block .feature-title, .light .price , .light .form-input , .light .team-member-caption h4, .light .post-body .post-title a , .light .contact ul li, .light .support ul li a, .light .company ul li a,  .light .contact ul li, .light .support ul li:hover a, .light .company ul li:hover a , .light .contact .socile li a,.light .contact .socile li:hover a{
+  color: #333;
+}
+.light .contact .socile li a{
+  background-color: rgba(245, 238, 238, 0.685);
+}
+.light #mynav ul > li > ul{
+  background-color: #fff;
+}
+.light #mynav ul > li > ul> li:hover{
+  background-color: #f1f1f1;
+}
+.light #features .features-row, .light #iamge-block , .light .pricing-wrapper li , .light #bitcoin-calculator-section .container , .light .team-member-caption , .light #chart{
+  background-color: #e7e7e7;
+}
+
+/* light part ends */
+
+/* boxed part start */
+
+body.boxed {
+  padding: 0 80px;
+  background-image: url(../images/boxed-bg.png);
+  background-attachment: fixed;
+}
+
+/* boxed part ends */
+
+/* switcher part satrt */
+#switcher {
+  position: fixed;
+  background-color: #fff;
+  width: 220px;
+  top: 100px;
+  left: 0;
+  z-index: 11111;
+  direction: ltr;
+  border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  box-shadow: 0px 0px 4px 0px rgb(51 51 51 / 20%);
+  font-family: "Open Sans", sans-serif;
+  display: none;
+}
+#switcher .content-switch {
+  padding: 16px;
+  overflow: hidden;
+}
+#switcher h4 {
+  font-size: 15px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 700;
+  line-height: 28px;
+}
+#switcher p {
+  margin: 15px 0 10px 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #2e363f;
+}
+#switcher label {
+  cursor: pointer;
+}
+#switcher .purchess {
+  text-transform: uppercase;
+  background-color: #0ba026;
+  color: #fff;
+  padding: 8px 5px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  animation-delay: 0.5s;
+}
+#hideSwitcher {
+  cursor: pointer;
+  font-size: 38px;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  line-height: 43px;
+  color: #999;
+}
+
+#showSwitcher {
+  z-index: 1111;
+  position: fixed;
+  left: 0;
+  top: 210px;
+  background: #1d1d1d;
+  padding: 10px 16px 10px 14px;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+#showSwitcher i {
+  color: #fff;
+  font-size: 25px;
+}
+/* switcher part ends */
+
+/* header part css strat */
+
+.main-logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.bitcoin-status ul {
+  padding-top: 28px;
+}
+.bitcoin-status ul li {
+  padding-right: 25px;
+  display: inline-block;
+}
+.bitcoin-status ul li:last-child {
+  padding-right: 0;
+}
+.bitcoin-status ul li h6 {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 800;
+  text-align-last: left;
+  color: #eee;
+}
+.bitcoin-status ul li span {
+  font-size: 12px;
+  color: #aaa;
+}
+.btcwdgt.btcwdgt-text-ticker.btcwdgt-s-price {
+  min-width: initial !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+}
+.btcwdgt.btcwdgt-s-price .btcwdgt-body {
+  padding: 0 !important;
+  margin-top: 0 !important;
+  height: 14px !important;
+  text-align: center !important;
+}
+.btcwdgt-s-price .btcwdgt-body ul {
+  display: inline-block !important;
+  margin: 0 !important;
+}
+.btcwdgt.btcwdgt-s-price .btcwdgt-body ul li {
+  color: var(--scinColorOrange) !important;
+  line-height: normal !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+.btcwdgt.btcwdgt-s-price .btcwdgt-body ul li:before {
+  content: "$";
+  position: relative;
+  font-size: 12px;
+  top: -1px;
+}
+.btcwdgt.btcwdgt-s-price .btcwdgt-body span,
+.btcwdgt.btcwdgt-text-ticker .btcwdgt-footer,
+.btcwdgt.btcwdgt-text-ticker .btcwdgt-edge {
+  display: none !important;
+}
+.btcwdgt-body .arrow.down {
+  top: 10px !important;
+  position: absolute !important;
+  margin: -6px 0 0 -11px !important;
+}
+.btcwdgt.btcwdgt-s-price .btcwdgt-body ul li {
+  font-size: 14px !important;
+}
+.user-part ul {
+  padding-top: 26px;
+  text-align: right;
+}
+.user-part ul li {
+  display: inline-block;
+  padding-right: 17px;
+}
+.user-part ul li a {
+  display: block;
+  border: 1px solid var(--scinColorOrange);
+  padding: 11px 17px;
+  text-transform: uppercase;
+  font-size: 13px;
+  background-color: transparent;
+  color: var(--scinColorOrange);
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.user-part ul li a:hover,
+.user-part ul li:last-child a {
+  color: #fff;
+  background-color: var(--scinColorOrange);
+}
+
+/* navigation part satrt */
+.custom-nav {
+  background: #111;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+.mobile-logo {
+  display: none;
+}
+#mynav ul {
+  padding-left: 15%;
+}
+#mynav ul li {
+  position: relative;
+}
+#mynav ul li.active a {
+  color: var(--scinColorOrange);
+}
+#mynav ul li a {
+  font-size: 14px;
+  padding: 17px 16px;
+  color: #fff;
+  line-height: 17px;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+#mynav ul li a i {
+  padding-left: 5px;
+}
+#mynav ul li:hover > a {
+  color: var(--scinColorOrange);
+}
+
+/* dropdown */
+
+#mynav ul > li > ul {
+  position: absolute;
+  min-width: 200px;
+  background-color: #1d1d1d;
+  top: calc(100% + 20px);
+  left: inherit;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 8;
+}
+#mynav ul > li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+#mynav ul li ul li:hover {
+  background-color: #000;
+}
+#mynav ul li ul li {
+  display: block;
+}
+#mynav ul li ul li a {
+  display: block;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #999;
+}
+/* header part css ends */
+
+/* baner section part css  satrt */
+#baner {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.baner-item {
+  height: 570px;
+  position: relative;
+  z-index: 1;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+.baner-item::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.baner-item p {
+  color: #fff;
+}
+#baner .b-left,
+#baner .b-right {
+  position: absolute;
+  top: 50%;
+  font-size: 35px;
+  color: var(--scinColorOrange);
+  cursor: pointer;
+  z-index: 1111;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+#baner .b-left {
+  left: -20px;
+}
+#baner:hover .b-left {
+  left: 30px;
+}
+#baner .b-right {
+  right: -20px;
+}
+#baner:hover .b-right {
+  right: 30px;
+}
+.slider-content {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -150px;
+  width: 100%;
+  height: 100%;
+  display: table;
+  z-index: 2;
+}
+.slider-content h3 {
+  color: #fff;
+  font-size: 68px;
+  line-height: 78px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.slider-content h3 span {
+  color: var(--scinColorOrange);
+}
+.slider-content a {
+  padding: 10px 15px;
+  border: 1px solid var(--scinColorOrange);
+  background-color: transparent;
+  color: var(--scinColorOrange);
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 28px;
+}
+.slider-content a:hover {
+  color: #fff;
+  background-color: var(--scinColorOrange);
+}
+
+/* baner section part css  ends */
+
+/* features part css start */
+
+#features {
+  position: relative;
+  top: -60px;
+  z-index: 10;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#features .features-row {
+  padding: 60px 50px 50px 50px;
+  background-color: #1d1d1d;
+  margin-left: 0;
+  margin-right: 0;
+}
+.feature-icon {
+  float: left;
+}
+.feature-content {
+  margin-left: 100px;
+}
+.feature-content h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: normal;
+}
+.feature-content p {
+  color: #ddd;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* features part css ends */
+
+/* about part css start */
+
+#about {
+  padding: 0 0 70px;
+}
+.title-head {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 15px;
+  padding: 10px 0 20px;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 800;
+}
+.title-head span {
+  color: var(--scinColorOrange);
+}
+.sub-title-head p {
+  position: relative;
+  color: #999;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+.sub-title-head p::after,
+.sub-title-head p::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  top: 9px;
+  background-color: var(--scinColorOrange);
+}
+.sub-title-head p::before {
+  right: -50px;
+}
+.sub-title-head p::after {
+  left: -50px;
+}
+.about-content {
+  margin-top: 20px;
+}
+.title-about {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.about-text {
+  line-height: 28px;
+  margin-bottom: 3px;
+}
+.nav-tabs {
+  border-bottom: 0;
+}
+.nav-tabs li a {
+  padding: 0 25px;
+  color: #555;
+  margin: 20px 0;
+  display: inline-block;
+  border-right: 1px solid #555;
+  font-size: 16px;
+}
+.nav-tabs li:first-child a {
+  padding-left: 0;
+}
+.nav-tabs li:last-child a {
+  border: none;
+}
+.nav-tabs li a.active {
+  color: var(--scinColorOrange);
+}
+.about-btn a {
+  padding: 15px 25px;
+  background-color: var(--scinColorOrange);
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 25px;
+  display: inline-block;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.about-btn a:hover {
+  background-color: rgba(253, 150, 26, 0.9) !important;
+}
+/* about part css ends */
+
+/* feature and vedio section css satrt */
+
+#iamge-block {
+  background-color: #1d1d1d;
+}
+.image-block {
+  padding: 50px 50px 50px 150px;
+}
+.gap-20 {
+  height: 20px;
+}
+.image-block .feature-title {
+  color: #fff;
+  margin: 10px 0;
+}
+.vedio-block {
+  background-image: url(../images/bg-video.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+.vedio-block::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.vedio-block a {
+  position: relative;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 5px solid #fff;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: var(--scinColorOrange);
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+.vedio-block a:hover {
+  background-color: #fff;
+}
+
+/* feature and vedio section css ends */
+
+/* pricing part css satrt */
+
+#pricing {
+  padding: 60px 0;
+  position: relative;
+}
+.pricing-table-content {
+  margin-top: 25px;
+}
+.pricing-switcher p {
+  display: inline-block;
+  position: relative;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  border: 1px solid #333;
+  background-color: #111;
+  padding-right: 4px;
+  z-index: 1;
+}
+.pricing-switcher input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.pricing-switcher label {
+  position: relative;
+  width: 105px;
+  height: 40px;
+  line-height: 43px;
+  color: #fff;
+  font-size: 16px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.pricing-switcher .switcher {
+  position: absolute;
+  top: 2px;
+  width: 105px;
+  height: 36px;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  background-color: var(--scinColorOrange);
+  z-index: -1;
+}
+.pricing-switcher .in {
+  left: 2px;
+}
+.pricing-switcher .on {
+  right: 0px;
+}
+.pricing-list {
+  margin: 48px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.pricing-wrapper {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+}
+.is-visible {
+  position: relative;
+  z-index: 5;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+}
+.pricing-wrapper li {
+  background-color: #1d1d1d;
+  outline: 1px solid transparent;
+}
+.pricing-header {
+  height: auto;
+  padding: 30px;
+  pointer-events: auto;
+  text-align: center;
+  color: #173d50;
+  background-color: transparent;
+}
+.pricing-header h2 {
+  font-size: 1.2rem;
+  margin-top: 25px;
+  line-height: 1.8rem;
+  color: #e7e7e7;
+  letter-spacing: 2px;
+}
+.pricing-header h2 span {
+  display: block;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 17px;
+}
+.price {
+  margin-top: 45px;
+  color: #fff;
+}
+.curency {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.value {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.pricing-footer {
+  position: relative;
+  text-align: center;
+  height: auto;
+  padding: 30px 0;
+}
+.pricing-footer a {
+  display: block;
+  margin: 0 30px;
+  padding: 15px 30px;
+  background-color: var(--scinColorOrange);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.pricing-footer a:hover {
+  background-color: rgba(253, 150, 26, 0.9) !important;
+}
+
+.is-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transform: rotateY(-120deg);
+  -webkit-transform: rotateY(-120deg);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+/* pricing part css ends */
+
+/* bitcoin-calculator part css satrt */
+
+#bitcoin-calculator-section {
+  background-image: url(../images/bg-calculator\ \(1\).jpg);
+  height: 218px;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 70px 0;
+  z-index: 1;
+}
+#bitcoin-calculator-section::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+#bitcoin-calculator-section .container {
+  height: 358px;
+  background-color: #1d1d1d;
+  margin-top: -80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 1144px;
+  padding: 70px 0;
+}
+#bitcoin-calculator-section .container .sub-title-head p::before,
+#bitcoin-calculator-section .container .sub-title-head p::after {
+  display: none;
+}
+.form-input {
+  border: 1px solid #2d2d2d;
+  min-width: 95px;
+  height: 45px;
+  width: 230px !important;
+  text-align: center;
+  outline: none;
+  background: #181818;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.form-info {
+  width: 62px;
+  height: 45px;
+  background-color: var(--scinColorOrange);
+  border: 1px solid var(--scinColorOrange);
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -6px;
+  text-align: center;
+  color: #fff;
+  line-height: 45px;
+}
+.form-equal {
+  display: inline-block;
+  color: #fff;
+  padding: 0 20px;
+  font-size: 26px;
+  font-weight: 300;
+}
+.info {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgba(244, 255, 255, 0.3);
+}
+
+/* bitcoin-calculator part css ends */
+
+/* team part css start */
+
+#team {
+  padding: 60px 0;
+  position: relative;
+}
+.team-members {
+  margin-top: 20px;
+}
+.team-member {
+  position: relative;
+  display: inline-block;
+}
+.team-member img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.team-member-caption {
+  text-align: center;
+  border-top: 3px solid var(--scinColorOrange);
+  padding: 25px 0;
+  background-color: #1d1d1d;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+.team-member:hover .team-member-caption {
+  background-color: var(--scinColorOrange);
+}
+.team-member:hover .team-member-caption p {
+  color: #fff;
+}
+.team-member-caption h4 {
+  color: #fff;
+}
+.team-member-caption p {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 28px;
+}
+.team-member .social-icons {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  display: flex;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  visibility: hidden;
+}
+.team-member:hover .social-icons {
+  visibility: visible;
+}
+.team-member .social-icons li {
+  margin-right: 20px;
+  display: inline-block;
+}
+.team-member .social-icons li a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.team-member .social-icons li:hover a {
+  color: var(--scinColorOrange);
+}
+.team-member .social-icons li:nth-child(2) a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+/* team part css ends */
+
+/* chast part css satrt */
+
+#chart {
+  padding: 0;
+  background-color: #1d1d1d;
+}
+.image-block-quote {
+  background-image: url(../images/bg-quote.jpg);
+  height: 580px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  padding: 100px 50px;
+}
+.image-block-quote:after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+.image-block-quote blockquote {
+  position: relative;
+  margin: 30px 0;
+  padding: 30px;
+}
+
+.image-block-quote blockquote p::before {
+  content: "\201C";
+  position: absolute;
+  top: -30px;
+  left: -25px;
+  color: var(--scinColorOrange);
+  font-size: 70px;
+}
+.image-block-quote blockquote p::after {
+  content: "\201D";
+  position: absolute;
+  bottom: -25px;
+  right: 0px;
+  color: var(--scinColorOrange);
+  font-size: 70px;
+}
+.image-block-quote blockquote p {
+  font-size: 18px;
+  font-weight: 28px;
+  font-weight: 300;
+  font-style: italic;
+  color: #fff;
+  position: relative;
+}
+.image-block-quote blockquote footer img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
+}
+.image-block-quote blockquote footer {
+  color: #fff;
+}
+.image-block-quote blockquote footer span {
+  color: var(--scinColorOrange);
+}
+.bg-grey-chart {
+  height: 580px;
+}
+.chart-widget.dark-chart.chart-1 {
+  z-index: 1;
+}
+.bg-grey-chart .chart-widget {
+  display: table;
+  position: absolute;
+  height: 100%;
+  margin: 70px 0;
+}
+.bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean {
+  margin-left: 120px !important;
+  max-width: 625px !important;
+  box-shadow: none !important;
+  height: auto !important;
+}
+.btcwdgt-chart .chart-1 .btcwdgt-body {
+  background: #222 !important;
+  border: 0.5px solid #d1d1d1 !important;
+}
+.bg-grey-chart .btcwdgt-chart .btcwdgt-header,
+.bg-grey-chart .btcwdgt-chart .btcwdgt-header h2,
+.bg-grey-chart .btcwdgt-headlines .btcwdgt-header,
+.bg-grey-chart .stats {
+  background: var(--scinColorOrange) !important;
+}
+.bg-grey-chart .chart-1 .btcwdgt-chart .btcwdgt-header p,
+.bg-grey-chart .chart-1 .btcwdgt-chart .btcwdgt-header p.changes {
+  background-color: #222 !important;
+}
+.bg-grey-chart .btcwdgt-chart .btcwdgt-footer {
+  display: none !important;
+}
+
+/* chast part css ends */
+
+/* blog part css start */
+
+#blog {
+  padding: 60px 0;
+}
+.latest-post a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.9;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.latest-post a img:hover {
+  opacity: 1;
+}
+.post-body .post-title a {
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+}
+.post-body .post-title a:hover {
+  color: var(--scinColorOrange);
+}
+.latest-post {
+  position: relative;
+  margin-top: 30px;
+}
+.post-btn {
+  padding: 10px 25px;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--scinColorOrange);
+}
+.post-btn:hover {
+  background-color: rgba(253, 150, 26, 0.9);
+  color: #fff;
+}
+.post-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 15px;
+}
+.post-date span {
+  line-height: 25px;
+  font-size: 12px;
+}
+.post-date span:last-child {
+  line-height: 40px;
+}
+/* blog part css ends */
+
+/* call-action part css start */
+
+#call-action {
+  position: relative;
+  background-image: url(../images/call-to-action-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#call-action::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  right: 50%;
+  border-right: 125px solid transparent;
+  z-index: 100;
+  border-bottom: 30px solid #0c0c0c;
+  transform: rotate(0.000001deg);
+  -webkit-transform: rotate(0.000001deg);
+}
+#call-action::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  z-index: 100;
+  border-bottom: 30px solid #0c0c0c;
+  transform: rotate(0.000001deg);
+  -webkit-transform: rotate(0.000001deg);
+  left: 50%;
+  border-left: 125px solid transparent;
+}
+.call-action-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 60px 0 95px;
+}
+.action-text h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 15px 0 23px;
+  text-transform: uppercase;
+}
+.action-text p {
+  font-size: 21px;
+  color: #9b9999;
+  line-height: 25px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.action-btn {
+  display: block;
+  padding: 13px 25px;
+  margin-top: 40px;
+  background-color: var(--scinColorOrange);
+  max-width: 240px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.action-btn:hover {
+  background-color: rgba(253, 150, 26, 0.9);
+  color: #fff;
+}
+
+/* call-action part css ends */
+
+/* footer part css start */
+
+.footer {
+  background-color: #0c0c0c;
+}
+.footer-top {
+  padding: 45px 0 50px;
+}
+.contact h4,
+.support h4,
+.company h4 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: var(--scinColorOrange);
+  line-height: 28px;
+}
+.contact ul li,
+.support ul li a,
+.company ul li a {
+  color: #999;
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.support ul li:hover a,
+.company ul li:hover a {
+  color: #fff;
+}
+.contact ul li {
+  margin-bottom: 10px;
+}
+.contact .socile li a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 8px;
+  color: #ddd;
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  background-color: rgba(244, 255, 255, 0.3);
+  text-align: center;
+}
+.contact .socile li:hover a{
+  color: #fff;
+}
+.facts-footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.facts-footer div h5{
+  font-size: 23px;
+  font-weight: 800;
+  color: var(--scinColorOrange);
+ margin-bottom: 5px;
+}
+.facts-footer div span{
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #999;
+}
+.facts-footer div{
+  margin-bottom: 20px;
+}
+hr{
+  color: #d1d1d1;
+}
+ .payment-logs h4{
+  color: #999;
+  margin-bottom: 5px;
+  font-size: 14px;
+ }
+.payment-logs ul li{
+  display: inline-block;
+}
+.payment-logs ul li img{
+  width: 30px;
+  margin-right: 5px;
+}
+.bottom-footer p{
+  padding: 13px 0;
+  border-top: 1px solid #222;
+}
+.bottom-footer p a{
+  color: #999;
+}
+/* footer part css ends */

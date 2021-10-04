@@ -1,0 +1,309 @@
+@media (min-width:992px) and (max-width:1199.90px){
+    .user-part ul li{
+        padding-right: 0;
+    }
+    #mynav ul {
+        padding-left: 10%;
+    }
+    .slider-content h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .baner-item{
+        height: 450px;
+    }
+    .slider-content{
+        margin-top: -115px;
+    }
+    .feature-content {
+        margin-left: 80px;
+    }
+    .nav-tabs li a{
+        padding: 0 20px ;
+        font-size: 14px;
+    }
+    .pricing-header h2{
+        font-size: 1rem;
+    }
+    .curency, .value{
+        font-size: 2rem;
+    }
+    #bitcoin-calculator-section .container{
+        width: 750px;
+    }
+    .bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
+        margin-left: 10px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991.90px){
+    .main-logo{
+        text-align: center;
+    }
+    .user-part ul{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #mynav ul {
+        padding-left: 0;
+    }
+    #mynav ul li a{
+        padding: 17px 14px;
+    }
+    .slider-content h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .baner-item{
+        height: 450px;
+    }
+    .slider-content{
+        margin-top: -115px;
+    }
+    .feature-box{
+        margin-bottom: 15px;
+    }
+    .title-about{
+        margin-top: 40px;
+    }
+    .image-block {
+        padding: 50px 50px 50px 90px;
+    }
+    .bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
+        margin-left: 47px !important;
+    }
+}
+@media (min-width:576px) and (max-width:767.90px){
+    .slider-content h3{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .baner-item{
+        height: 400px;
+    }
+    .slider-content{
+        margin-top: -165px;
+    }
+    .feature-icon {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feature-content {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #about .sub-title-head p::after,
+    #about .sub-title-head p::before{
+        display: none;
+    }
+    .title-about{
+        margin-top: 40px;
+    }
+    .nav-tabs li a{
+        padding: 0 20px ;
+        font-size: 14px;
+    }
+    .image-block {
+        padding: 0;
+    }
+    .vedio-block a {
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.sub-title-head p::after, .sub-title-head p::before{
+    display: none;
+}
+.is-visible{
+    margin-bottom: 20px;
+}
+.form-equal {
+	display: block;
+	padding: 20px;
+}
+#bitcoin-calculator-section .container {
+    height: 406px;
+}
+.team-member{
+    margin-bottom: 20px;
+}
+.image-block-quote {
+	height: 376px;
+	padding: 57px 50px;
+}
+.bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
+    margin-left: 0 !important;
+}
+.facts-footer {
+	padding-top: 35px;
+	border-top: 1px solid #d1d1d1;
+}
+.p-20{
+    padding-bottom: 25px;
+}
+
+}
+@media (max-width:575px){
+    .bitcoin-status{
+        display: none;
+    }
+    .user-part {
+        padding-top: 50px;
+    }
+    .user-part ul li a{
+        padding:  11px 28px;
+        font-size: 11px;
+    }
+    .user-part ul li{
+        display: inline-block;
+        width: 49%;
+    }
+    .slider-content h3{
+        font-size: 26px;
+        line-height: 36px;
+        margin: 40px 0;
+    }
+    .baner-item{
+        height: 320px;
+    }
+    .slider-content{
+        margin-top: -165px;
+    }
+    .feature-icon {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feature-content {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #features .features-row{
+        padding: 60px 29px 50px 20px;
+    }
+    #about-us{
+        display: block;
+        width: 100%;
+    }
+    .title-about{
+        margin-top: 40px;
+    }
+    .nav-tabs li{
+        display: block !important;
+        width: 100% !important;
+    }
+    .nav-tabs{
+        margin: 20px 0;
+    }
+    .nav-tabs li a{
+        display: block;
+       text-align: center;
+        border:  1px solid #aaa;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .nav-tabs li:last-child a{
+        border: 0.5px solid #aaa;
+    }
+    .nav-tabs li a.active{
+        background: var(--scinColorOrange);
+        color: #fff;
+        border: 0.5px solid var(--scinColorOrange);
+      }
+      .image-block {
+        padding: 0;
+    }
+    .image-block-quote {
+        height: 440px;
+        padding: 0;
+    }
+    .bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean {
+        margin-left: 23px !important;
+        width: 300px !important;
+    }
+    .bg-grey-chart {
+        height: 396px;
+    }
+    .latest-post {
+        margin-bottom: 20px;
+    }
+    .p-20{
+        padding-bottom: 25px;
+    }
+    .contact{
+        text-align: center;
+    }
+    .socile{
+        justify-content: center;
+    }
+    .payment-logs{
+        text-align: center;
+    }
+    .facts-footer{
+        text-align: center;
+    }
+}
+@media (max-width:767px){
+    .mobile-logo {
+        display: block;
+    }
+    .main-logo{
+        display: none;
+    }
+    .custom-nav {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+    .bitcoin-status {
+        padding-top: 50px;
+    }
+    .user-part ul {
+        padding-top: 26px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 25px;
+        line-height: 1;
+        background-color: #fd961a;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-radius:none !important;
+        box-shadow: none !important;
+        border-radius:0 !important;
+        -webkit-border-radius:0 !important;
+}
+.navbar-toggler i {
+    color: #fff;
+}
+#mynav ul{
+    text-align: center;
+}
+#mynav ul li{
+    padding: 15px 0;
+}
+#mynav ul li a{
+    font-size: 16px;
+    font-weight: 600;
+}
+#mynav ul> li> ul{
+    opacity: 1;
+    visibility: visible;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    display: none;
+}
+#mynav ul li ul li:hover{
+    background-color:transparent;
+  }
+  #mynav ul li ul li a{
+      padding: 0 ;
+  }
+}

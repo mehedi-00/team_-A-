@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fontawesome.min.css.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/magnific-popup.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/orange.css">
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/blue.css" />
+   
+   <!-- <script src="./js/modernizr.js"></script> -->
+</head>
+<body class="dark wide">
+
+
+<!-- sawitcher part satrt -->
+<div id="switcher">
+  <div class="content-switch">
+    <h4>STYLE SWITCHER</h4>
+    <ul class=" d-flex">
+      <li>
+        <a href="#" title="orange" id="orange-css">
+        <img src="./images/orange.png" alt="">
+      </a>
+    </li>
+      <li>
+        <a href="#" title="green" id="green-css">
+        <img src="./images/green.png" alt="">
+      </a>
+    </li>
+      <li>
+        <a href="#" title="blue" id="blue-css">
+        <img src="./images/blue.png" alt="">
+      </a>
+    </li>
+    </ul>
+    <p>BODY SKIN</p>
+    <label><input class="dark_switch" type="radio" name="color_style" id="is_dark" value="dark" checked="checked"> Dark</label>
+    <label><input class="dark_switch" type="radio" name="color_style" id="is_light" value="light"> Light</label>
+    <hr>
+    <p>LAYOUT STYLE</p>
+    <label><input class="boxed_switch" type="radio" name="layout_style" id="is_wide" value="dark" checked="checked"> Wide</label>
+    <label><input class="boxed_switch" type="radio" name="layout_style" id="is_boxed" value="boxed" > Boxed</label>
+    <hr>
+    <a href="#" class="purchess">
+      purches
+    </a>
+    <div id="hideSwitcher">×</div>
+  </div>
+</div>
+<div id="showSwitcher" >
+  <i class="fa fa-cog fa-spin"></i>
+</div>
+
+<!-- sawitcher part ends -->
+
+<!-- header section start -->
+
+<header id="top-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 main-logo">
+                <a href="#"><img id="logo" src="./images/logo-dark.png" alt=""></a>
+            </div>
+            <div class="col-lg-7 bitcoin-status text-center">
+                <ul>
+                    <li>
+                        <h6>9,450 USD</h6>
+                        <span>Last trade price</span>
+                    </li>
+                    <li>
+                        <h6>+5.26%</h6>
+                        <span>24 hour price</span>
+                    </li>
+                    <li>
+                        <h6>12.820 BTC</h6>
+                        <span>24 hour volume</span>
+                    </li>
+                    <li>
+                        <h6>2,231,775</h6>
+                        <span>active traders</span>
+                    </li>
+                    <li>
+                        <div class="btcwdgt-price" data-bw-theme="light" data-bw-cur="usd"></div>
+                        <span>Live Bitcoin price</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 user-part">
+                <ul>
+                    <li>
+                        <a href="#" class="mybtn">
+                            <i class="fa fa-user"></i>
+                            sign in
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="mybtn">
+                            <i class="fa fa-user-plus"></i>
+                            register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light custom-nav">
+        <div class="container">
+          <a class="mobile-logo" href="#"><img id="mobile-logo" src="./images/logo-dark.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse " id="mynav">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="about.html">about us</a>
+              </li>
+              <li>
+                <a href="#">services</a>
+              </li>
+              <li>
+                <a href="#">pricing</a>
+              </li>
+              <li  class="dropdown">
+                <a href="#">blog  <i class="fa fa-angle-down"></i></a>
+                <ul class="my-drop">
+                    <li><a href="#">Right Sidebar</a></li>
+                    <li><a href="#">Left Sidebar</a></li>
+                    <li><a href="#">Grid No Sidebar</a></li>
+                    <li><a href="#">Single Post</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#">pages  <i class="fa fa-angle-down"></i></a>
+                <ul class="my-drop">
+                    <li><a href="#">Register page</a></li>
+                    <li><a href="#">Login page</a></li>
+                    <li><a href="#">Shopping cart</a></li>
+                    <li><a href="#">shopping checkout</a></li>
+                    <li><a href="#">FAQ page</a></li>
+                    <li><a href="#">404 Page</a></li>
+                    <li><a href="#">Server Error Page</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">contact</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-search"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Navigation Menu Ends -->
+</header>
+
+<!-- header section ends -->
+
+<!-- baner section start -->
+
+<section id="baner">
+  <div class="baner-item" style="background-image: url(./images/bg1.jpg);">
+    <div class="container">
+      <div class="slider-content text-center">
+        <h3><span>SECURE</span>AND <span>EASY WAY</span> <br>TO BITCOIN </h3>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class="baner-item" style="background-image: url(./images/bg2.jpg);">
+    <div class="container">
+      <div class="slider-content text-center">
+        <h3><span>BITCOIN</span>EXCHANGE <br>YOU CAN <span>TRUST</span></h3>
+        <a href="#">our prices</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- baner section ends -->
+
+<!-- features part  start -->
+
+<section id="features">
+  <div class="container">
+    <div class="row features-row">
+      <div class="col-lg-4 feature-box">
+        <div class="feature-icon">
+          <img id="download-bitcoin" src="./images/download-bitcoin.png" alt="">
+        </div>
+        <div class="feature-content">
+          <h3>Download Bitcoin Wallet</h3>
+          <p>Get it on PC or Mobile to create, send and receive bitcoins.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <div class="feature-icon">
+          <img id="add-bitcoins" src="./images/add-bitcoins.png" alt="">
+        </div>
+        <div class="feature-content">
+          <h3>Add coins to your Wallet</h3>
+          <p>Add bitcoins you’ve created or exchanged via credit card.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <div class="feature-icon">
+          <img id="buy-sell-bitcoins" src="./images/buy-sell-bitcoins.png" alt="">
+        </div>
+        <div class="feature-content">
+          <h3>Buy/Sell with Wallet</h3>
+          <p>Enter receiver's address, specify the amount and send.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- features part  ends -->
+
+<!-- about part satrt -->
+
+<section id="about">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="title-head">about <span>us</span></h2>
+      <div class="sub-title-head">
+        <p>A COMMERCIAL WEBSITE THAT LISTS WALLETS, EXCHANGES AND OTHER BITCOIN RELATED INFO</p>
+      </div>
+    </div>
+      <div class="row about-content">
+        <div class="col-lg-6 text-center">
+          <img id="about-us" src="./images/about-us.png" alt="">
+        </div>
+        <div class="col-lg-6 text-start">
+          <h3 class="title-about">WE ARE BAYYA</h3>
+          <p class="about-text">A place for everyone who wants to simply buy and sell Bitcoins. Deposit funds using your Visa/MasterCard or bank transfer. Instant buy/sell of Bitcoins at fair price is guaranteed. Nothing extra. Join over 700,000 users from all over the world satisfied with our services.</p>
+
+          <ul class="nav nav-tabs">
+            <li>
+              <a data-bs-toggle="tab" href="#menu1" class="active" aria-selected="true">OUR MISSION</a>
+            </li >
+            <li>
+              <a  data-bs-toggle="tab" href="#menu2"  aria-selected="false">OUR ADVANTAGES</a>
+            </li>
+            <li>
+              <a data-bs-toggle="tab" href="#menu3" aria-selected="false">OUR GUARANTEES</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="menu1">
+              <p>Bitcoin is based on a protocol known as the blockchain, which allows to create, transfer and verify ultra-secure financial data without interference of third parties.</p>
+            </div>
+            <div class="tab-pane fade" id="menu2">
+              <p>Our mission as an official partner of Bitcoin Foundation is to help you enter and better understand the world of #1 cryptocurrency and avoid any issues you may encounter.</p>
+            </div>
+            <div class="tab-pane fade" id="menu3">
+              <p>We are here because we are passionate about open, transparent markets and aim to be a major driving force in widespread adoption, we are the first and the best in cryptocurrency.</p>
+            </div>
+          </div>
+          <div class="about-btn">
+            <a href="#">read more</a>
+          </div>
+        </div>
+        
+      </div>
+    
+  </div>
+</section>
+
+<!-- about part ends -->
+
+<!-- feature and vedio section start -->
+
+<section id="iamge-block">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 image-block">
+        <div class="gap-20"></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="feature text-center">
+              <img id="strong-security" src="./images/strong-security.png" alt="">
+              <h3 class="feature-title">STRONG SECURITY</h3>
+              <p>Protection against DDoS attacks, <br>full data encryption</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature text-center">
+              <img id="world-coverage" src="./images/world-coverage.png" alt="">
+              <h3 class="feature-title">WORLD COVERAGE</h3>
+              <p>Providing services in 99% countries <br>around all the globe</p>
+            </div>
+          </div>
+        </div>
+        <div class="gap-20"></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="feature text-center">
+              <img id="payment-options" src="./images/payment-options.png" alt="">
+              <h3 class="feature-title">PAYMENT OPTIONS</h3>
+              <p>Popular methods: Visa, MasterCard, <br>bank transfer, cryptocurrency</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature text-center">
+              <img id="mobile-app" src="./images/mobile-app.png" alt="">
+              <h3 class="feature-title">MOBILE APP</h3>
+              <p>Trading via our Mobile App, Available <br>in Play Store & App Store</p>
+            </div>
+          </div>
+        </div>
+        <div class="gap-20"></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="feature text-center">
+              <img id="cost-efficiency" src="./images/cost-efficiency.png" alt="">
+              <h3 class="feature-title">PAYMENT OPTIONS</h3>
+              <p>Popular methods: Visa, MasterCard, <br>bank transfer, cryptocurrency</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="feature text-center">
+              <img id="high-liquidity" src="./images/high-liquidity.png" alt="">
+              <h3 class="feature-title">MOBILE APP</h3>
+              <p>Trading via our Mobile App, Available <br>in Play Store & App Store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 vedio-block text-center">
+        <a class=" mfp-youtube" href="https://www.youtube.com/watch?v=0gv7OC9L2s8"><i class="fas fa-play"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- feature and vedio section ends -->
+
+<!-- pricing part satrt -->
+
+<section id="pricing">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="title-head">AFFORDABLE <span>PACKAGES</span></h2>
+      <div class="sub-title-head">
+        <p>PURCHASE BITCOIN USING A CREDIT CARD OR WITH YOUR LINKED BANK ACCOUNT</p>
+      </div>
+    </div>
+    <div class="row pricing-table-content">
+      <div class="pricing-container">
+        <div class="pricing-switcher text-center">
+          <p>
+            <input type="radio" name="switch" value="buy" id="buy-1" checked>
+            <label for="buy-1" id="buy">BUY</label>
+            <input type="radio" name="switch" value="sell" id="sell-1">
+            <label for="sell-1" id="sell">SELL</label>
+            <span class="switcher in"></span>
+          </p>
+        </div>
+        <div class="pricing-list row">
+          <li class="col-md-3 col-sm-6">
+           <ul class="pricing-wrapper">
+             <li id="buy" class="is-visible">
+               <header class="pricing-header">
+                 <h2>GET 0.007 BTC
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fas fa-dollar-sign"></i>
+                   </span>
+                   <span class="value">100</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+             <li id="sell" class="is-hidden">
+               <header class="pricing-header">
+                 <h2>GET 100 USD
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fab fa-btc"></i>
+                   </span>
+                   <span class="value">0.2</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+           </ul>
+          </li>
+          <li class="col-md-3 col-sm-6">
+           <ul class="pricing-wrapper">
+             <li id="buy" class="is-visible">
+               <header class="pricing-header">
+                 <h2>GET 0.015 BTC
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fas fa-dollar-sign"></i>
+                   </span>
+                   <span class="value">300</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+             <li id="sell" class="is-hidden">
+               <header class="pricing-header">
+                 <h2>GET 100 USD
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fab fa-btc"></i>
+                   </span>
+                   <span class="value">0.5</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+           </ul>
+          </li>
+          <li class="col-md-3 col-sm-6">
+           <ul class="pricing-wrapper">
+             <li id="buy" class="is-visible">
+               <header class="pricing-header">
+                 <h2>GET 0.031 BTC
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fas fa-dollar-sign"></i>
+                   </span>
+                   <span class="value">500</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+             <li id="sell" class="is-hidden">
+               <header class="pricing-header">
+                 <h2>GET 100 USD
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fab fa-btc"></i>
+                   </span>
+                   <span class="value">1</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+           </ul>
+          </li>
+          <li class="col-md-3 col-sm-6">
+           <ul class="pricing-wrapper">
+             <li id="buy" class="is-visible">
+               <header class="pricing-header">
+                 <h2>GET 0.081 BTC
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fas fa-dollar-sign"></i>
+                   </span>
+                   <span class="value">1,000</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+             <li id="sell" class="is-hidden">
+               <header class="pricing-header">
+                 <h2>GET 100 USD
+                   <span>for</span>
+                 </h2>
+                 <div class="price">
+                   <span class="curency">
+                    <i class="fab fa-btc"></i>
+                   </span>
+                   <span class="value">2</span>
+                 </div>
+               </header>
+               <footer class="pricing-footer">
+                 <a href="#">order now</a>
+               </footer>
+             </li>
+           </ul>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- pricing part ends -->
+
+<!-- bitcoin calculator part satrt -->
+
+<section id="bitcoin-calculator-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+      <h2 class="title-head"><span>BITCOIN</span> CALCULATOR</h2>
+      <div class="sub-title-head">
+        <p>FIND OUT THE CURRENT BITCOIN VALUE WITH OUR EASY-TO-USE CONVERTER</p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <form clss="bitcoin-calculator" id="bitcoin-calculator">
+        <input  id="crytovalue" class="form-input" name="btc-calculator-value" value="1">
+        <div class="form-info"> <i class="fab fa-btc"></i></div>
+        <div class="form-equal">=</div>
+        <input  id="fiatvalue" class="form-input input-result" name="btc-calculator-result" value="4586">
+        <div class="form-wrap form-info">
+          
+         <!-- <select name="btc-calculator-currency" id="fiatselect"></select> -->
+        </div>
+        <p class="info">* Data updated every 15 minutes</p>
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- bitcoin calculator part ends -->
+
+<!-- team part start -->
+
+<section id="team">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="title-head">OUR<span> EXPERTS</span> </h2>
+      <div class="sub-title-head">
+        <p>A TALENTED TEAM OF CRYPTOCURRENCY EXPERTS BASED IN LONDON</p>
+      </div>
+    </div>
+    <div class="row team-members">
+      <div class="col-md-3 col-sm-6">
+        <div class="team-member">
+          <img src="./images/member1.jpg" alt="">
+          <div class="team-member-caption">
+            <h4>LINA MARZOUKI</h4>
+            <p>Ceo Founder</p>
+          </div>
+          <ul class="social-icons">
+            <li><a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-twitter"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="team-member">
+          <img src="./images/member2.jpg" alt="">
+          <div class="team-member-caption">
+            <h4>MARCO VERRATTI</h4>
+            <p>Director</p>
+          </div>
+          <ul class="social-icons">
+            <li><a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-twitter"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="team-member">
+          <img src="./images/member3.jpg" alt="">
+          <div class="team-member-caption">
+            <h4>EMILIA BELLA </h4>
+            <p>Bitcoin Consultant</p>
+          </div>
+          <ul class="social-icons">
+            <li><a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-twitter"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="team-member">
+          <img src="./images/member4.jpg" alt="">
+          <div class="team-member-caption">
+            <h4> ANTONIO CONTE </h4>
+            <p>Bitcoin Developer</p>
+          </div>
+          <ul class="social-icons">
+            <li><a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-twitter"></i>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- team part ends -->
+
+<!-- chart part start -->
+
+<section id="chart">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 image-block-quote">
+        <blockquote>
+          <p>Bitcoin is one of the most important inventions in all of human history. For the first time ever, anyone can send or receive any amount of money with anyone else, anywhere on the planet, conveniently and without restriction. It’s the dawn of a better, more free world.</p>
+          <footer>
+            <img src="./images/ceo.jpg" alt="">
+            <span>Marc Smith</span>
+            - CEO
+          </footer>
+        </blockquote>
+      </div>
+      <div class="col-lg-8 bg-grey-chart">
+        <div class="chart-widget dark-chart chart-1">
+            <div>
+                <div class="btcwdgt-chart" data-bw-theme="dark"></div>
+            </div>
+        </div>
+          <div class="chart-widget light-chart chart-2">
+            <div>
+                <div class="btcwdgt-chart" bw-theme="light"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- chart part ends -->
+
+<!-- blog part start -->
+
+<section id="blog">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="title-head">BITCOIN <span> NEWS</span> </h2>
+      <div class="sub-title-head">
+        <p>DISCOVER LATEST NEWS ABOUT BITCOIN ON OUR BLOG</p>
+      </div>
+    </div>
+    <div class="row latest-post-content">
+    <div class="col-md-4">
+      <div class="latest-post">
+        <a href="#"> <img src="./images/blog-post-small-1.jpg" alt=""></a>
+        <div class="post-body">
+          <h4 class="post-title">
+            <a href="#">How Cryptocurrency Begun and Its Impact To Financial Transactions</a>
+          </h4>
+          <p>incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud...</p>
+          <a href="#" class="post-btn">read more</a>
+          <div class="post-date">
+            <span>01</span>
+            <span>JAN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="latest-post">
+        <a href="#"> <img src="./images/blog-post-small-2.jpg" alt=""></a>
+        <div class="post-body">
+          <h4 class="post-title">
+            <a href="#">Cryptocurrency - Who Are Involved With It? Words about members</a>
+          </h4>
+          <p>incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud...</p>
+          <a href="#" class="post-btn">read more</a>
+          <div class="post-date">
+            <span>17</span>
+            <span>MAR</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="latest-post">
+        <a href="#"> <img src="./images/blog-post-small-3.jpg" alt=""></a>
+        <div class="post-body">
+          <h4 class="post-title">
+            <a href="#">Risks & Rewards Of Investing In Bitcoin. Pros and Cons</a>
+          </h4>
+          <p>incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud...</p>
+          <a href="#" class="post-btn">read more</a>
+          <div class="post-date">
+            <span>25</span>
+            <span>FEB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- blog part ends -->
+<!-- call-action part start -->
+
+<section id="call-action">
+  <div class="call-action-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="action-text text-center">
+            <h2>GET STARTED TODAY WITH BITCOIN</h2>
+            <p>Open account for free and start trading Bitcoins!</p>
+            <a href="#" class="action-btn">Register Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- call-action part ends -->
+
+<!-- footer part satrt -->
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-sm-4 col-6 company p-20">
+          <h4>Our Company</h4>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 support p-20">
+          <h4>HELP & SUPPORT</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">TERMS OF SERVICES</a></li>
+            <li><a href="#">404</a></li>
+            <li><a href="#">REGISTER</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">COMING SOON</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-4 contact p-20">
+          <h4>CONTACT US</h4>
+          <ul>
+            <li>CONTACT@WEBSITE.COM</li>
+            <li>00216 21 184 010</li>
+            <li>href="#">LONDON, ENGLAND</li>
+            <li>MON-SAT 08AM ⇾ 05PM</li>
+          </ul>
+          <ul class="socile d-flex">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-sm-12 p-20">
+          <div class="facts-footer">
+              <div class="col-6">
+                <h5>$198.76B</h5>
+                <span>MARKET CAP</span>
+              </div>
+              <div class="col-6">
+                <h5>243K</h5>
+                <span>DAILY TRANSACTIONS</span>
+              </div>
+              <div class="col-6">
+                <h5>369K</h5>
+                <span>ACTIVE ACCOUNTS</span>
+              </div>
+              <div class="col-6">
+                <h5>127</h5>
+                <span>SUPPORTED COUNTRIES</span>
+              </div>
+          </div>
+          <hr>
+          <div class="payment-logs">
+            <h4>SUPPORTED PAYMENT METHODS</h4>
+            <ul>
+              <li><img src="./images/american-express.png" alt=""></li>
+              <li><img src="./images/mastercard.png" alt=""></li>
+              <li><img src="./images/visa.png" alt=""></li>
+              <li><img src="./images/paypal.png" alt=""></li>
+              <li><img src="./images/maestro.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">Copyright © 2018 Bayya All Rights Reserved | Created with Love by <a href="#">celtano</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- footer part ends -->
+
+    <!-- custom js link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script src="./js/widget.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
